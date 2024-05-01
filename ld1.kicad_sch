@@ -6025,7 +6025,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 143.51 97.79 0)
 			(effects
 				(font
@@ -6162,7 +6162,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 143.51 104.14 0)
 			(effects
 				(font
@@ -6367,7 +6367,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 143.51 76.2 0)
 			(effects
 				(font
@@ -6870,76 +6870,6 @@
 			(project "ld1"
 				(path "/b32b136d-bf21-4725-82bc-3d3551c16114"
 					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x02_Pin")
-		(at 143.51 114.3 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3a03566d-7f19-44e2-a60c-0adf2fd4902b")
-		(property "Reference" "J2"
-			(at 144.78 111.7599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "PROG"
-			(at 144.78 114.2999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 143.51 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 143.51 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 143.51 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f7a0b1dd-891d-4b42-a0b4-2adacc2ba2be")
-		)
-		(pin "1"
-			(uuid "0d75896d-79f2-4d75-9f3a-9685e992e982")
-		)
-		(instances
-			(project "ld1"
-				(path "/b32b136d-bf21-4725-82bc-3d3551c16114"
-					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -8971,7 +8901,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 143.51 91.44 0)
 			(effects
 				(font
@@ -10841,6 +10771,76 @@
 			(project "ld1"
 				(path "/b32b136d-bf21-4725-82bc-3d3551c16114"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 143.51 111.76 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ccbbe8da-d169-4c92-ad9c-67db85ed4b44")
+		(property "Reference" "J2"
+			(at 144.78 114.3001 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "PROG"
+			(at 144.78 111.7601 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 143.51 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 143.51 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 143.51 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0a546818-bb73-437c-b309-96a87aff8711")
+		)
+		(pin "1"
+			(uuid "30744301-185f-4e1d-a1b3-0f62095ecbf8")
+		)
+		(instances
+			(project "ld1"
+				(path "/b32b136d-bf21-4725-82bc-3d3551c16114"
+					(reference "J2")
 					(unit 1)
 				)
 			)
