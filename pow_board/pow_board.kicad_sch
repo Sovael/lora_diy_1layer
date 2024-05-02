@@ -25,7 +25,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "0a_pow:LM2596 step-down DC-DC module"
 				(at -6.35 -3.81 0)
 				(effects
 					(font
@@ -65,42 +65,6 @@
 					)
 				)
 				(pin input line
-					(at 10.16 1.27 180)
-					(length 2.54)
-					(name "OUT+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 10.16 -2.54 180)
-					(length 2.54)
-					(name "OUT-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
 					(at -7.62 1.27 0)
 					(length 2.54)
 					(name "IN+"
@@ -129,6 +93,42 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 1.27 180)
+					(length 2.54)
+					(name "OUT+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "OUT-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2128,16 +2128,6 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 68.58) (xy 43.18 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "04ffde7e-040a-42c8-a246-7a856c46164a")
-	)
-	(wire
-		(pts
 			(xy 187.96 83.82) (xy 187.96 81.28)
 		)
 		(stroke
@@ -2198,26 +2188,6 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 60.96) (xy 43.18 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2ceffb38-9bcc-4bfd-900a-005fc263384b")
-	)
-	(wire
-		(pts
-			(xy 234.95 149.86) (xy 233.68 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "34f6f9b6-cd83-4beb-a5d1-39a73f050db3")
-	)
-	(wire
-		(pts
 			(xy 121.92 54.61) (xy 124.46 54.61)
 		)
 		(stroke
@@ -2225,6 +2195,26 @@
 			(type default)
 		)
 		(uuid "3ae15529-7d71-49bf-8be6-b6b07a9fd1a7")
+	)
+	(wire
+		(pts
+			(xy 232.41 149.86) (xy 234.95 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f70eca8-f82a-4336-b442-af8102c4d95b")
+	)
+	(wire
+		(pts
+			(xy 43.18 66.04) (xy 46.99 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "426c55cc-9faf-4384-8da5-c9c1e3ba2411")
 	)
 	(wire
 		(pts
@@ -2318,16 +2308,6 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 149.86) (xy 243.84 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "75e15576-9bf4-49d6-a9e9-4937384b1ef8")
-	)
-	(wire
-		(pts
 			(xy 125.73 52.07) (xy 121.92 52.07)
 		)
 		(stroke
@@ -2365,6 +2345,16 @@
 			(type default)
 		)
 		(uuid "8f5f4787-eade-4e46-a5bd-f14269f0b5f8")
+	)
+	(wire
+		(pts
+			(xy 245.11 149.86) (xy 242.57 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98e59aa7-f992-4fc7-9181-125b198f88c5")
 	)
 	(wire
 		(pts
@@ -2438,6 +2428,16 @@
 	)
 	(wire
 		(pts
+			(xy 46.99 68.58) (xy 43.18 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd4b51db-65bf-4acb-8220-20e8a2e4525a")
+	)
+	(wire
+		(pts
 			(xy 43.18 48.26) (xy 46.99 48.26)
 		)
 		(stroke
@@ -2468,33 +2468,13 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 149.86) (xy 233.68 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cbe9ad23-1eaa-4858-a457-b5dad5a13766")
-	)
-	(wire
-		(pts
-			(xy 43.18 66.04) (xy 46.99 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d3b7a97d-915c-4ece-8d75-a2147290af21")
-	)
-	(wire
-		(pts
 			(xy 43.18 58.42) (xy 46.99 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d9fc5124-415a-403d-b5ac-534d2bf3b67c")
+		(uuid "d2a35156-eff2-48bf-95c2-b6803d406d4a")
 	)
 	(wire
 		(pts
@@ -2548,16 +2528,6 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 149.86) (xy 243.84 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f5331ecb-a3f8-4632-86ed-b85b9d208931")
-	)
-	(wire
-		(pts
 			(xy 104.14 57.15) (xy 100.33 57.15)
 		)
 		(stroke
@@ -2575,6 +2545,83 @@
 			(type default)
 		)
 		(uuid "ff576f9c-ba9c-4e55-a47c-43f2ae1fc105")
+	)
+	(wire
+		(pts
+			(xy 46.99 60.96) (xy 43.18 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff61b228-9404-4829-b43f-2903961fe1ff")
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 43.18 58.42 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "024c463f-db05-426b-8d74-a7fe80e39ee3")
+		(property "Reference" "#PWR012"
+			(at 46.99 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 39.37 58.4199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 43.18 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "419abe10-a24c-4af8-a011-005d9dd8592f")
+		)
+		(instances
+			(project "pow_board"
+				(path "/6a562fef-835c-4085-8a0c-178d47c774f1"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:+5V")
@@ -2643,33 +2690,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_SPST")
-		(at 140.97 49.53 0)
+		(lib_id "power:+BATT")
+		(at 43.18 66.04 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "075c1cce-ec66-4474-bf9d-7d81d0513ede")
-		(property "Reference" "SW1"
-			(at 140.97 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_SPST"
-			(at 140.97 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal"
-			(at 140.97 49.53 0)
+		(uuid "0f163457-0eea-49e3-a746-54de55fcd800")
+		(property "Reference" "#PWR015"
+			(at 46.99 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2677,8 +2708,17 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 140.97 49.53 0)
+		(property "Value" "+BATT"
+			(at 39.37 66.0399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2686,8 +2726,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Single Pole Single Throw (SPST) switch"
-			(at 140.97 49.53 0)
+		(property "Datasheet" ""
+			(at 43.18 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2695,16 +2735,22 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "91eaa01c-8f8c-4512-8667-7c358fc0ba2d")
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 43.18 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "aca0371b-287a-4847-ad6f-73e88a03078c")
+			(uuid "c6777b7f-e03d-4206-a7a0-7b6df6ecfb4f")
 		)
 		(instances
 			(project "pow_board"
 				(path "/6a562fef-835c-4085-8a0c-178d47c774f1"
-					(reference "SW1")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -2977,6 +3023,207 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 140.97 49.53 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "31ab95cc-d29e-4ed2-b222-90b415d04d16")
+		(property "Reference" "SW1"
+			(at 140.97 44.4501 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 140.97 46.9901 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal"
+			(at 140.97 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 140.97 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 140.97 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3dc44625-4bbe-47a8-8966-a3060830ee13")
+		)
+		(pin "1"
+			(uuid "12e0c558-59a6-40aa-902c-6f70b08201df")
+		)
+		(instances
+			(project "pow_board"
+				(path "/6a562fef-835c-4085-8a0c-178d47c774f1"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 245.11 149.86 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "454b94a1-c12d-4bce-b38d-361c013a8aab")
+		(property "Reference" "#PWR07"
+			(at 241.3 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 248.92 149.8599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 245.11 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 245.11 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 245.11 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f99409bf-5527-4b8a-b7c7-587d4c97fad7")
+		)
+		(instances
+			(project "pow_board"
+				(path "/6a562fef-835c-4085-8a0c-178d47c774f1"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 43.18 60.96 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "477b8546-3ce8-4dc7-ac68-f14a03912ef3")
+		(property "Reference" "#PWR013"
+			(at 36.83 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 37.846 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 43.18 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e2978bb7-c3a9-41ee-be0c-c3c2a09fd719")
+		)
+		(instances
+			(project "pow_board"
+				(path "/6a562fef-835c-4085-8a0c-178d47c774f1"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 153.67 54.61 0)
 		(mirror y)
@@ -3240,73 +3487,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VBUS")
-		(at 43.18 58.42 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "542d99a7-a4fa-459e-b22b-cea55683d550")
-		(property "Reference" "#PWR012"
-			(at 46.99 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 39.37 58.4199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 43.18 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 43.18 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 43.18 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9fe760da-0e1e-4935-9263-a99bef1ffd4e")
-		)
-		(instances
-			(project "pow_board"
-				(path "/6a562fef-835c-4085-8a0c-178d47c774f1"
-					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 168.91 83.82 0)
 		(unit 1)
@@ -3445,73 +3625,6 @@
 			(project "pow_board"
 				(path "/6a562fef-835c-4085-8a0c-178d47c774f1"
 					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+BATT")
-		(at 43.18 66.04 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "67cb814a-7895-47f0-857b-d2d9f1976b81")
-		(property "Reference" "#PWR015"
-			(at 46.99 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+BATT"
-			(at 39.37 66.0399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 43.18 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 43.18 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 43.18 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ea7d000a-6624-480b-b357-941cf6c3de9f")
-		)
-		(instances
-			(project "pow_board"
-				(path "/6a562fef-835c-4085-8a0c-178d47c774f1"
-					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -4113,16 +4226,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 43.18 60.96 270)
+		(at 43.18 68.58 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "8d0851ee-036f-450c-8c52-e0027b3db32f")
-		(property "Reference" "#PWR013"
-			(at 36.83 60.96 0)
+		(uuid "8d5466ee-8958-4ef8-a9d5-477ebe9b427b")
+		(property "Reference" "#PWR014"
+			(at 36.83 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4131,7 +4244,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 37.846 60.96 90)
+			(at 37.846 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4139,7 +4252,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 43.18 60.96 0)
+			(at 43.18 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4148,7 +4261,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 43.18 60.96 0)
+			(at 43.18 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4157,7 +4270,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 43.18 60.96 0)
+			(at 43.18 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4166,12 +4279,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "94be8ff0-0cc3-4fd4-a3a2-7a4591d667a9")
+			(uuid "118d088a-6f9e-441f-9997-e3786fb1aec1")
 		)
 		(instances
 			(project "pow_board"
 				(path "/6a562fef-835c-4085-8a0c-178d47c774f1"
-					(reference "#PWR013")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -4242,72 +4355,6 @@
 			(project "pow_board"
 				(path "/6a562fef-835c-4085-8a0c-178d47c774f1"
 					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 43.18 68.58 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8faa76ae-b0c9-4cfd-9cda-a9a42428893c")
-		(property "Reference" "#PWR014"
-			(at 36.83 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 37.846 68.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 43.18 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 43.18 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 43.18 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3d7b9a46-2044-4bfd-ae90-f9279b47dceb")
-		)
-		(instances
-			(project "pow_board"
-				(path "/6a562fef-835c-4085-8a0c-178d47c774f1"
-					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -4452,6 +4499,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VBUS")
+		(at 232.41 149.86 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9fcf93ac-72a9-4e3b-b6e9-48a38807da8f")
+		(property "Reference" "#PWR06"
+			(at 236.22 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 228.6 149.8599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 232.41 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 232.41 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 232.41 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cef923c9-8bfc-4781-8402-9e7cf94bcc94")
+		)
+		(instances
+			(project "pow_board"
+				(path "/6a562fef-835c-4085-8a0c-178d47c774f1"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 173.99 54.61 0)
 		(mirror y)
@@ -4542,7 +4656,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "0a_pow:LM2596 step-down DC-DC module"
 			(at 186.69 54.61 0)
 			(effects
 				(font
@@ -4575,10 +4689,10 @@
 		(pin "1"
 			(uuid "2a882af5-179f-414e-966d-47ce04005c53")
 		)
-		(pin ""
+		(pin "4"
 			(uuid "734f2f3e-fb0a-45f1-a6da-ae0287750fc7")
 		)
-		(pin ""
+		(pin "3"
 			(uuid "5cc4d656-2e0c-4162-8322-fef6a0e189ae")
 		)
 		(instances
@@ -5083,7 +5197,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Horizontal"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal"
 			(at 52.07 60.96 0)
 			(effects
 				(font
@@ -5349,7 +5463,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Horizontal"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal"
 			(at 52.07 68.58 0)
 			(effects
 				(font
@@ -5604,71 +5718,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 233.68 151.13 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fca11d3a-fd87-45ca-b3e4-7943e78ac032")
-		(property "Reference" "#PWR06"
-			(at 233.68 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 233.68 155.448 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 233.68 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 233.68 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 233.68 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "eb6e4504-abeb-4179-8fda-d7921de1681e")
-		)
-		(instances
-			(project "pow_board"
-				(path "/6a562fef-835c-4085-8a0c-178d47c774f1"
-					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 168.91 77.47 0)
 		(unit 1)
@@ -5733,71 +5782,6 @@
 			(project "pow_board"
 				(path "/6a562fef-835c-4085-8a0c-178d47c774f1"
 					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 243.84 151.13 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fec7f384-c08a-4bab-bf72-e6afb89389f0")
-		(property "Reference" "#PWR07"
-			(at 243.84 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 243.84 155.448 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 243.84 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 243.84 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 243.84 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0cebe27a-4521-4617-8be4-d288706420f5")
-		)
-		(instances
-			(project "pow_board"
-				(path "/6a562fef-835c-4085-8a0c-178d47c774f1"
-					(reference "#PWR07")
 					(unit 1)
 				)
 			)
