@@ -11431,7 +11431,7 @@
 		(dnp no)
 		(uuid "ccbbe8da-d169-4c92-ad9c-67db85ed4b44")
 		(property "Reference" "J2"
-			(at 144.78 114.3001 0)
+			(at 144.78 112.014 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11440,7 +11440,7 @@
 			)
 		)
 		(property "Value" "PROG"
-			(at 144.78 111.7601 0)
+			(at 144.78 114.046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
