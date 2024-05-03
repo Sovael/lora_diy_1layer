@@ -468,7 +468,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "../composition/ld1.step",
+      "step": "../assembly/ld1.step",
       "svg": "",
       "vrml": ""
     },
@@ -574,7 +574,7 @@
   },
   "sheets": [
     [
-      "6a562fef-835c-4085-8a0c-178d47c774f1",
+      "b32b136d-bf21-4725-82bc-3d3551c16114",
       "Root"
     ]
   ],

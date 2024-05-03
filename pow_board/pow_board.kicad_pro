@@ -485,7 +485,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "../composition/pow_board.step",
+      "step": "../assembly/pow_board.step",
       "svg": "",
       "vrml": ""
     },
